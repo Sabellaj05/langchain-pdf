@@ -1,13 +1,11 @@
 # Chatear con PDFs
 
-## LangChain y OpenAI
-
 > To do: Detallar mejor el paso a paso
 
 - Crear python venv
 - Instalar dependencies from `requirements.txt`
 - añadir `.env` file
-- Tener una API key de OpenAI para usar y agregarla a `.env`
+- Tener una API key de OpenAI (y HuggingFace) para usar y agregarla al `.env`
 - Para usar `streamlit run app.py`
 
 ## Explicacion simplificada
