@@ -6,7 +6,7 @@ from langchain.embeddings import OpenAIEmbeddings                # embedding de 
 # from langchain.embeddings import HuggingFaceInstructEmbeddings # embeding de HuggingFace
 from langchain.vectorstores import FAISS                         # vector store   
 from langchain.chat_models import ChatOpenAI                     # llm   
-from langchain.llms import HuggingFaceHub                        # llm local          
+# from langchain.llms import HuggingFaceHub                        # llm local          
 from langchain.memory import ConversationBufferMemory            # memory para contexto  
 from langchain.chains import ConversationalRetrievalChain        # interaccion Q/A con vector store   
 from htmlformat import css, AI_format, user_format       # mas ui
@@ -137,7 +137,7 @@ def main():
                 # create conversation chain
                 # importante usar session_state ya que streamlit suele recargar el codigo ante ciertas interacciones
                 # por lo tanto eso borraria nuestra memoria y perderiamos el contexto al momento de hacer multiples preguntas
-                # tambien es util para usar la variable fuerte del scope en estes caso de la sidebar, de lo contrario no se podria
+                # tambien es util para usar la variable fuera del scope en este caso de la sidebar, de lo contrario no se podria
                 st.session_state.conversation = get_conversation_chain(vectorstore)       # pasamos como argumento la vector store 
 
 
