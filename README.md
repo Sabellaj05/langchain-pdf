@@ -22,7 +22,8 @@ Basicamente lo que ocurre es:
 - Y con esa informacion se la pasamos al `LLM` o *Large Language Model* en este caso de OpenAI para que responda con contexto de los pdfs y preguntas previas del usuarios y respuesta previas de la misma AI
 
 Se puede usar localmente instalando un *Embedding* y *LLM* de HuggingFace en vez de OpenAI.  
-En el `requirements.txt` y en `app.py` ambas opciones de HuggingFace estan comentadas pero pueden ser intercambiadas con las de OpenAI para usarlo gratis (Si es que la pc aguanta)
+En el `requirements.txt` y en `app.py` ambas opciones de HuggingFace estan comentadas pero pueden ser intercambiadas con las de OpenAI para usarlo gratis localmente 
+(Si es que la pc aguanta) o incluso usar Google Colab
 
 
 
