@@ -57,6 +57,7 @@ def get_vectorstore(text_chunks):
     vectorstore = FAISS.from_texts(texts=text_chunks, embedding=embeddings)
     return vectorstore
 
+
 # --- Logica de conversacion con memoria ---
 
 def get_conversation_chain(vectorstore):
@@ -115,7 +116,9 @@ def main():
     if user_question:
         handle_userinput(user_question)
 
+
 # --- Sidebar ---
+
     with st.sidebar:                               # sidebar para cargar y procesar los pdfs
         st.subheader("Tus documentos")
         pdf_docs = st.file_uploader(               # st element para subir archivos, multiples_files = True
