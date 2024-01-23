@@ -1,12 +1,14 @@
 # Chatear con PDFs
 
 > To do: Detallar mejor el paso a paso
+> Esto fue testeado con Python version 3.11.4 (Lo probe con 3.12 y hubo problemas)
 
-- Crear python venv
-- Instalar dependencies from `requirements.txt`
+- Crear python venv `python -m venv <nombre>`
+- Activarlo `/venv/Scripts/Activate.Ps1` con PowerShell
+- Instalar dependencies  `pip install -r requirements.txt`
 - añadir `.env` file
 - Tener una API key de OpenAI (y HuggingFace) para usar y agregarla al `.env`
-- Para usar `streamlit run app.py`
+- Para usar run: `streamlit run app.py`
 
 ## Explicacion simplificada
 
