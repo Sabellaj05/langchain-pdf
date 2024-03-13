@@ -1,10 +1,9 @@
 # Chatear con PDFs
 
-> To do: Detallar mejor el paso a paso
-> Esto fue testeado con Python version 3.11.4
+> Testeado con Python 3.11.4
 
 - Crear python venv `python3 -m venv <nombre>`
-- Activarlo `. venv/bin/actiavte` Bash, `venv/bin/Activate.Ps1` PS
+- Activarlo `. /venv/bin/actiavte` Bash, `/venv/bin/Activate.Ps1` PS
 - Instalar dependencies  `pip3 install -r requirements.txt`
 - añadir `.env` file
 - Tener una API key de OpenAI (y HuggingFace) para usar y agregarla al `.env`
