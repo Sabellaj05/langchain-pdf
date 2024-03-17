@@ -5,7 +5,7 @@
 - Crear python venv `python3 -m venv <nombre>`
 - Activarlo `. /venv/bin/activate` Bash, `/venv/bin/Activate.Ps1` PS
 - Instalar dependencies  `pip3 install -r requirements.txt`
-- añadir `.env` file
+- Renombrar `.env.example` a `.env`
 - Tener una API key de OpenAI (y HuggingFace) para usar y agregarla al `.env`
 - Para usar run: `streamlit run app.py`
 
