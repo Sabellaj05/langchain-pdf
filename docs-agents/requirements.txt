@@ -1,0 +1,9 @@
+langchain-core==0.1.46
+langchain-community==0.0.34
+"langserve[all]"
+langsmith==0.1.51
+langchain-openai==0.1.4
+beautifulsoup4==4.12.3
+faiss-cpu==1.8.0
+langchainhub==0.1.15
+python-dotenv==1.0.1
